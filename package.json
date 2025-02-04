@@ -1,0 +1,19 @@
+{
+  "name": "bun-cli-beginner-guide",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A CLI to upload files to S3",
+  "bin": {
+    "s3upload": "index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "meow": "^13.2.0"
+  }
+}
